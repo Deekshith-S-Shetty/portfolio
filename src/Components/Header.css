@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  padding: 1.5rem 2rem;
+}
+
+.logo {
+  flex: 33%;
+}
+
+.logo > img {
+  width: 48px;
+  height: 30px;
+}
+
+.header-links {
+  flex: 66%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.header-links > p {
+  font-weight: 500;
+  font-size: 1rem;
+  margin: 0 32px;
+}
+
+.header-icons {
+  flex: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: fit-content;
+}
+
+.header-icons > img {
+  width: 20px;
+  height: 20px;
+  margin: 0 16px;
+}
