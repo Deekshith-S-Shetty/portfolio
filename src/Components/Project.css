@@ -1,0 +1,94 @@
+.projects-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 3rem;
+  line-height: 1.5;
+  padding-bottom: 75px;
+}
+
+.project-text {
+  flex: 40%;
+}
+
+.project-title {
+  color: #24252c;
+  font-size: 1.7rem;
+  margin-bottom: 0;
+}
+
+.project-desc {
+  color: grey;
+  margin: 8px 0;
+  font-weight: 500;
+}
+
+.project-features-title {
+  color: #24252c;
+  font-size: 1.3rem;
+  margin-bottom: 0;
+}
+
+.project-features {
+  color: grey;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 8px 0;
+}
+
+.project-techstack-title {
+  color: #24252c;
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+
+.project-techstacks {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.project-techstacks > img {
+  width: 40px;
+  margin: 0 24px 32px 0;
+}
+
+.link-btn {
+  display: flex;
+}
+
+.projects-link {
+  margin-right: 24px;
+}
+
+.github-link {
+  margin-left: 24px;
+}
+
+.projects-link > button {
+  padding: 14px 24px;
+}
+
+.github-link > button {
+  padding: 12px 16px;
+}
+
+.project-image {
+  flex: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0 0;
+}
+
+.project-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #2157af, #4362ec);
+  border-radius: 8px;
+}
+
+.project-image-container > img {
+  padding: 32px;
+  border-radius: 8px;
+}
