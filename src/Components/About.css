@@ -1,0 +1,49 @@
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.self-image {
+  width: 250px;
+}
+
+.about-info {
+  width: 50%;
+}
+
+.about-info > p {
+  color: #4362ec;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.about-info > h3 {
+  color: #24252c;
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+.about-desc {
+  color: grey;
+  font-size: 1rem;
+}
