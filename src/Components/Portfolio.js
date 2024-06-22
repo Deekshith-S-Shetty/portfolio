@@ -25,6 +25,24 @@ export default function Portfolio() {
         liveLink={"https://customerreturn-97bdd.web.app/"}
         repoLink={"https://github.com/Deekshith-S-Shetty/Customer-Returns"}
       />
+
+      <Project
+        title={"Amazon"}
+        desc={
+          "Amazon is a React-based clone of Amazon, using Firebase for backend and Stripe for payments. It showcases full e-commerce functionality without a traditional backend server."
+        }
+        features={[
+          "User Authentication",
+          "Browse Products",
+          "Responsive UI",
+          "State Management",
+          "Add Products to Cart",
+          "Checkout & Payment",
+        ]}
+        techStack={["javaScript", "html", "css", "react", "firebase"]}
+        liveLink={"https://fir-2bbb7.web.app/"}
+        repoLink={"github.com/deekshith-S-Shetty/amazon"}
+      />
     </div>
   );
 }

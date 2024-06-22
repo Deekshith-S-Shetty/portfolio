@@ -92,4 +92,6 @@
 .project-image-container > img {
   padding: 32px;
   border-radius: 8px;
+  width: 650px;
+  height: 350px;
 }
