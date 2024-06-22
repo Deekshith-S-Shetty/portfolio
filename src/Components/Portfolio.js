@@ -11,19 +11,19 @@ export default function Portfolio() {
       </div>
 
       <Project
-        title={"Amazon"}
+        title={"Customer-Returns"}
         desc={"Automated System for Material Return from Customer."}
         features={[
           "User Authentication",
-          "Browse Products",
+          "Delivery Status",
+          "Check & Return Ordered Products",
+          "Approval & Response From Manufacturer",
           "Responsive UI",
           "State Management",
-          "Add Products to Cart",
-          "Checkout & Payment",
         ]}
         techStack={["javaScript", "html", "css", "react", "firebase"]}
-        liveLink={"https://fir-2bbb7.web.app/"}
-        repoLink={"github.com/deekshith-S-Shetty/amazon"}
+        liveLink={"https://customerreturn-97bdd.web.app/"}
+        repoLink={"https://github.com/Deekshith-S-Shetty/Customer-Returns"}
       />
     </div>
   );
