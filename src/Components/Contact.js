@@ -6,7 +6,7 @@ export default function Contact() {
   const initialValues = { name: "", email: "", message: "" };
   const [formValues, setFormValues] = useState(initialValues);
   const [errorValues, setErrorValues] = useState(initialValues);
-  const [showSuccessText, setShowSuccessText] = useState(true);
+  const [showSuccessText, setShowSuccessText] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
