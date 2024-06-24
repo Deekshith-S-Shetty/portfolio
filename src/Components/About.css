@@ -40,11 +40,24 @@
 .about-info > h3 {
   color: #24252c;
   font-size: 2rem;
-  font-weight: normal;
+  font-weight: 400;
   margin: 0;
 }
 
 .about-desc {
   color: grey;
   font-size: 1rem;
+}
+
+@media only screen and (max-width: 820px) {
+  .about-container {
+    flex-wrap: wrap;
+    padding: 32px;
+    gap: 3rem;
+  }
+
+  .about-info {
+    padding-right: 0;
+    width: 350px;
+  }
 }
