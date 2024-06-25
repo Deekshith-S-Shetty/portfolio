@@ -30,6 +30,12 @@
   font-weight: 500;
   font-size: 1rem;
   margin: 0 32px;
+  transition: all 0.4s ease-out;
+}
+
+.header-links > p:hover {
+  transform: scale(1.05);
+  color: #4362ec;
 }
 
 .header-icons {
@@ -39,10 +45,15 @@
   width: fit-content;
 }
 
-.header-icons > img {
-  width: 20px;
-  height: 20px;
+.header-icons > a > img {
+  width: 18px;
+  height: 18px;
   margin: 0 16px;
+  transition: all 0.4s ease-out;
+}
+
+.header-icons > a > img:hover {
+  transform: scale(1.05);
 }
 
 .burger-icon > img {
@@ -98,7 +109,7 @@
     flex-direction: column;
   }
 
-  .header-icons > img {
+  .header-icons > a > img {
     width: 32px;
     height: fit-content;
     margin: 24px 10px;

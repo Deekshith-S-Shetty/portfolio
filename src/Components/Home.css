@@ -59,6 +59,12 @@
   border-radius: 30px;
   font-weight: 750;
   font-size: 1rem;
+  transition: all 0.4s ease-out;
+}
+
+.btn:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px #00000029;
 }
 
 .btn-color {
