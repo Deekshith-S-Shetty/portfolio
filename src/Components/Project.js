@@ -35,10 +35,24 @@ export default function Project({
         </div>
         <div className="link-btn">
           <div className="projects-link">
-            <button className="btn btn-color">See Live</button>
+            <a
+              href={liveLink}
+              className="scroll-link"
+              target="_blank"
+              rel={"noreferrer"}
+            >
+              <button className="btn btn-color">See Live</button>
+            </a>
           </div>
           <div className="github-link">
-            <button className="btn btn-outline">GitHub Repo</button>
+            <a
+              href={repoLink}
+              className="scroll-link"
+              target="_blank"
+              rel={"noreferrer"}
+            >
+              <button className="btn btn-outline">GitHub Repo</button>
+            </a>
           </div>
         </div>
       </div>

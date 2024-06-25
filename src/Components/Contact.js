@@ -52,7 +52,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="contact-section">
+    <div className="contact-section" id="contact">
       <p>CONTACT</p>
       <h3>Connect with me</h3>
       <form className="contact-form" onSubmit={handleSubmit}>

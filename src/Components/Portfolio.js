@@ -4,7 +4,7 @@ import "./Portfolio.css";
 
 export default function Portfolio() {
   return (
-    <div className="portfolio-section">
+    <div className="portfolio-section" id="projects">
       <div className="portfolio-intro">
         <p>PORTFOLIO</p>
         <h2>Projects I have worked on</h2>
@@ -41,7 +41,7 @@ export default function Portfolio() {
         ]}
         techStack={["javaScript", "html", "css", "react", "firebase"]}
         liveLink={"https://fir-2bbb7.web.app/"}
-        repoLink={"github.com/deekshith-S-Shetty/amazon"}
+        repoLink={"https://github.com/deekshith-S-Shetty/amazon"}
       />
     </div>
   );
