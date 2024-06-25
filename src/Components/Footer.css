@@ -36,7 +36,7 @@
   margin-right: 32px;
 }
 
-.footer-right > img {
+.footer-right > a > img {
   width: 20px;
   height: 20px;
   margin: 0 16px;

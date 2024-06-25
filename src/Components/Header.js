@@ -36,7 +36,7 @@ export default function Header() {
         </div>
         <div className="header-icons">
           <a
-            href="https://www.linkedin.com/in/deekshith-shetty-3a4138224"
+            href="https://www.linkedin.com/in/deekshith6980/"
             className="scroll-link"
             target="_blank"
             rel={"noreferrer"}
@@ -48,7 +48,7 @@ export default function Header() {
             />
           </a>
           <a
-            href="https://x.com/Deekshi13971032"
+            href="https://x.com/deekshith6980"
             className="scroll-link"
             target="_blank"
             rel={"noreferrer"}
