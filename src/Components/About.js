@@ -7,7 +7,11 @@ export class About extends Component {
       <div className="about-section" id="about">
         <div className="about-container">
           <div className="image-section">
-            <img className="self-image" src="./images/self.png" alt="My pic" />
+            <img
+              className="self-image"
+              src={`${process.env.PUBLIC_URL}/images/self.png`}
+              alt="My pic"
+            />
           </div>
           <div className="about-info">
             <p>ABOUT ME</p>

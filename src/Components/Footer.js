@@ -6,7 +6,7 @@ export default function Footer() {
     <div className="footer-container">
       <div className="footer-left">
         <div className="logo" id="footer-logo">
-          <img src="./images/logo.png" alt="" />
+          <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="logo" />
         </div>
         <div className="footer-text">
           &#169; 2024 Deekshith shetty. All rights reserved.
@@ -19,7 +19,11 @@ export default function Footer() {
           target="_blank"
           rel={"noreferrer"}
         >
-          <img src="./images/linkedin.png" alt="Linkedin" className="h-icons" />
+          <img
+            src={`${process.env.PUBLIC_URL}/images/linkedin.png`}
+            alt="Linkedin"
+            className="h-icons"
+          />
         </a>
         <a
           href="https://x.com/deekshith6980"
@@ -27,7 +31,11 @@ export default function Footer() {
           target="_blank"
           rel={"noreferrer"}
         >
-          <img src="./images/x.png" alt="x" className="h-icons" />
+          <img
+            src={`${process.env.PUBLIC_URL}/images/x.png`}
+            alt="x"
+            className="h-icons"
+          />
         </a>
         <a
           href="https://github.com/deekshith-S-Shetty/"
@@ -35,7 +43,11 @@ export default function Footer() {
           target="_blank"
           rel={"noreferrer"}
         >
-          <img src="./images/github.png" alt="github" className="h-icons" />
+          <img
+            src={`${process.env.PUBLIC_URL}/images/github.png`}
+            alt="github"
+            className="h-icons"
+          />
         </a>
       </div>
     </div>

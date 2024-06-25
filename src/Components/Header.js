@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div className={`header ${!hamburger && "background-change"}`}>
       <div className="logo">
-        <img src="./images/logo.png" alt="logo" />
+        <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="logo" />
       </div>
       <div
         className="burger-icon"
@@ -14,7 +14,12 @@ export default function Header() {
           setHamburger(!hamburger);
         }}
       >
-        <img src={`./images/${hamburger ? "ham" : "close"}.png`} alt="" />
+        <img
+          src={`${process.env.PUBLIC_URL}/images/${
+            hamburger ? "ham" : "close"
+          }.png`}
+          alt=""
+        />
       </div>
       <div className={`header-info burger ${hamburger && "hidden"}`}>
         <div className="header-links">
@@ -42,7 +47,7 @@ export default function Header() {
             rel={"noreferrer"}
           >
             <img
-              src="./images/linkedin.png"
+              src={`${process.env.PUBLIC_URL}/images/linkedin.png`}
               alt="Linkedin"
               className="h-icons"
             />
@@ -53,7 +58,11 @@ export default function Header() {
             target="_blank"
             rel={"noreferrer"}
           >
-            <img src="./images/x.png" alt="x" className="h-icons" />
+            <img
+              src={`${process.env.PUBLIC_URL}/images/x.png`}
+              alt="x"
+              className="h-icons"
+            />
           </a>
           <a
             href="https://github.com/deekshith-S-Shetty/"
@@ -61,7 +70,11 @@ export default function Header() {
             target="_blank"
             rel={"noreferrer"}
           >
-            <img src="./images/github.png" alt="github" className="h-icons" />
+            <img
+              src={`${process.env.PUBLIC_URL}/images/github.png`}
+              alt="github"
+              className="h-icons"
+            />
           </a>
         </div>
       </div>

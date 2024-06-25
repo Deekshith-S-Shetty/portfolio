@@ -94,7 +94,8 @@ export default function Contact() {
         <div className="connect-btn" id="form-connect-btn">
           <button className="btn btn-outline">
             <a href="#" onClick={handleSubmit} className="scroll-link">
-              Lets Connect <img src="./images/send.png" alt="" />
+              Lets Connect{" "}
+              <img src={`${process.env.PUBLIC_URL}/images/send.png`} alt="" />
             </a>
           </button>
         </div>

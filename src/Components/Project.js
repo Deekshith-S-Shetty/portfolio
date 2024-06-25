@@ -28,7 +28,7 @@ export default function Project({
             <img
               className="project-techStack"
               key={idx}
-              src={`./images/${stack}.png`}
+              src={`${process.env.PUBLIC_URL}/images/${stack}.png`}
               alt="techStack logo"
             />
           ))}
@@ -58,7 +58,7 @@ export default function Project({
       </div>
       <div className="project-image">
         <div className="project-image-container">
-          <img src={`./images/${title}.png`} alt="" />
+          <img src={`${process.env.PUBLIC_URL}/images/${title}.png`} alt="" />
         </div>
       </div>
     </div>

@@ -8,43 +8,73 @@ export default function Skills() {
       <h2>Tech Stack I Work With</h2>
       <div className="all-skills">
         <div className="individual-skill">
-          <img src="./images/react.png" alt="react logo" />
+          <img
+            src={`${process.env.PUBLIC_URL}/images/react.png`}
+            alt="react logo"
+          />
           <p>React</p>
         </div>
         <div className="individual-skill">
-          <img src="./images/javaScript.png" alt="javascript logo" />
+          <img
+            src={`${process.env.PUBLIC_URL}/images/javaScript.png`}
+            alt="javascript logo"
+          />
           <p>JavaScript</p>
         </div>
         <div className="individual-skill">
-          <img src="./images/html.png" alt="html logo" />
+          <img
+            src={`${process.env.PUBLIC_URL}/images/html.png`}
+            alt="html logo"
+          />
           <p>HTML</p>
         </div>
         <div className="individual-skill">
-          <img src="./images/css.png" alt="css logo" />
+          <img
+            src={`${process.env.PUBLIC_URL}/images/css.png`}
+            alt="css logo"
+          />
           <p>CSS</p>
         </div>
         <div className="individual-skill">
-          <img src="./images/git.png" alt="git logo" />
+          <img
+            src={`${process.env.PUBLIC_URL}/images/git.png`}
+            alt="git logo"
+          />
           <p>Git</p>
         </div>
         <div className="individual-skill">
-          <img src="./images/firebase.png" alt="firebase logo" />
+          <img
+            src={`${process.env.PUBLIC_URL}/images/firebase.png`}
+            alt="firebase logo"
+          />
           <p>Firebase</p>
         </div>
         <div className="individual-skill">
-          <img src="./images/sql.png" alt="sql logo" />
+          <img
+            src={`${process.env.PUBLIC_URL}/images/sql.png`}
+            alt="sql logo"
+          />
           <p>SQL</p>
         </div>
         <div className="individual-skill">
-          <img src="./images/figma.png" alt="figma logo" />
+          <img
+            src={`${process.env.PUBLIC_URL}/images/figma.png`}
+            alt="figma logo"
+          />
           <p>Figma</p>
         </div>
         <div className="individual-skill">
-          <img src="./images/mongodb.png" alt="mongodb logo" />
+          <img
+            src={`${process.env.PUBLIC_URL}/images/mongodb.png`}
+            alt="mongodb logo"
+          />
           <p>MongoDB</p>
         </div>
         <div className="individual-skill">
-          <img src="./images/node.png" alt="node logo" />
+          <img
+            src={`${process.env.PUBLIC_URL}/images/node.png`}
+            alt="node logo"
+          />
           <p>NodeJS</p>
         </div>
       </div>
