@@ -14,12 +14,16 @@ export default function Home() {
         <div className="home-btn">
           <div className="projects-btn">
             <button className="btn btn-color">
-              My Projects <img src="./images/arrow.png" alt="arrow" />
+              <a href="#projects" className="scroll-link">
+                My Projects <img src="./images/arrow.png" alt="arrow" />
+              </a>
             </button>
           </div>
           <div className="connect-btn">
             <button className="btn btn-outline">
-              Lets Connect <img src="./images/send.png" alt="" />
+              <a href="#contact" className="scroll-link">
+                Lets Connect <img src="./images/send.png" alt="send logo" />
+              </a>
             </button>
           </div>
         </div>
