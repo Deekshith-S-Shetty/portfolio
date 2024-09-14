@@ -11,6 +11,21 @@ export default function Portfolio() {
       </div>
 
       <Project
+        title={"PixaEdit"}
+        desc={"A Full Blown Project On Image Manipulation."}
+        features={[
+          "User Authentication with OTP Verification",
+          "Image Editing Tools: Object removal, recoloring, background removal, and more",
+          "Coin-Based System: Edits deduct coins from user balance",
+          "Stripe Integration: For purchasing more coins",
+          "Responsive UI & State Management",
+        ]}
+        techStack={["nextjs", "typescript", "mongodb", "html", "css"]}
+        liveLink={"https://pixa-edit.vercel.app"}
+        repoLink={"https://github.com/Deekshith-S-Shetty/pixaedit"}
+      />
+
+      <Project
         title={"Customer-Returns"}
         desc={"Automated System for Material Return from Customer."}
         features={[

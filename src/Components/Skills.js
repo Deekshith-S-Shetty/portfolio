@@ -23,6 +23,20 @@ export default function Skills() {
         </div>
         <div className="individual-skill">
           <img
+            src={`${process.env.PUBLIC_URL}/images/typescript.png`}
+            alt="typescript logo"
+          />
+          <p>TypeScript</p>
+        </div>
+        <div className="individual-skill">
+          <img
+            src={`${process.env.PUBLIC_URL}/images/nextjs.png`}
+            alt="nextjs logo"
+          />
+          <p>NextJS</p>
+        </div>
+        <div className="individual-skill">
+          <img
             src={`${process.env.PUBLIC_URL}/images/html.png`}
             alt="html logo"
           />
