@@ -60,7 +60,7 @@ export const skills = [
     alt: "NextJS logo",
   },
   {
-    image: "javascript.png",
+    image: "javaScript.png",
     text: "JavaScript",
     alt: "JavaScript Logo",
   },
