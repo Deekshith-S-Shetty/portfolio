@@ -8,6 +8,7 @@ export default function Project({
   techStack,
   liveLink,
   repoLink,
+  image,
 }) {
   return (
     <div className="projects-section">
@@ -58,7 +59,7 @@ export default function Project({
       </div>
       <div className="project-image">
         <div className="project-image-container">
-          <img src={`${process.env.PUBLIC_URL}/images/${title}.png`} alt="" />
+          <img src={`${process.env.PUBLIC_URL}/images/${image}`} alt={title} />
         </div>
       </div>
     </div>

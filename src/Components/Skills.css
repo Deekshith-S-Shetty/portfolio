@@ -27,19 +27,32 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
+  margin-top: 20px;
 }
 
 .individual-skill {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   padding: 18px 18px;
-  height: 140px;
+  height: 100px;
 }
 
-.individual-skill > img {
-  width: 65px;
+.individual-skill-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+
+.individual-skill-img > img {
+  width: 70px;
+  border-radius: 5px;
+}
+
+.individual-skill > p {
+  font-weight:500;
 }
 
 .skills-section > hr {
